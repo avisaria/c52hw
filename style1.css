@@ -1,0 +1,98 @@
+h1{
+    color:#79ceba;
+    font-size: 3em;
+}
+h2{
+    color:#49ac95;
+    font-size: 1.5em;
+}
+h3{
+   color:#3f9984;
+   font-size: 1.5em;
+}
+h4{
+    color:#3f9984;
+}
+h5{
+    font-size: 1.5em;
+}
+*{
+    margin:0px;
+    padding: 0px; 
+}
+
+header{
+    border:solid;
+    border-top-color: #f59a1a ;
+    border-bottom-color: #f59a1a ;
+    border-left-color:#ffc573;
+    border-right-color:#ffc573;
+    border-width: 5px;
+    background-color: #ffc573;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: center;
+
+    padding: 0px 20px 0px 20px;
+
+}
+a.logo{
+    flex-grow: 1;
+}
+
+a.nav{
+    color: #3f9984;
+    font-family:  "Lucida Console", monospace ;
+    text-decoration: none;
+    padding: 5px 20px 5px 20px;
+}
+a.nav:hover{
+    background-color: #3f9984;
+    color:white;
+    border-radius: 5px;
+}
+
+
+
+footer{
+    background-color: #ffc573;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items:center;
+
+    border:solid;
+    border-top-color: #f59a1a ;
+    border-bottom-color: #f59a1a ;
+    border-left-color:#ffc573;
+    border-right-color:#ffc573;
+    border-width: 5px;
+
+    padding: 5px 10px 0px 0px;
+}
+
+a.sm{
+    padding:0px 5px 0px 5px;
+}
+
+a.sm:hover{
+    transform: scale(1.1);
+}
+
+section{
+    display: flex;
+    justify-content: space-evenly;
+    padding:15px 0px 15px 0px;
+}
+a.smF{
+    border-radius: 50%;
+    border:solid;
+    border-width: 20px;
+    border-color: #3f9984;
+
+}
+
+a.smF:hover{
+    transform: scale(1.1);
+}
